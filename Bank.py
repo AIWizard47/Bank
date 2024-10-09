@@ -32,7 +32,9 @@ while True:
                 else:
                     if w<=balance:
                         balance -= w
-                    print(f"You recieved {w} Amount and left {balance}")
+                        print(f"You recieved {w} Amount and left {balance}")
+                    else:
+                        print('You Have insufficient Balance')
                 break
             if ch==4:
                 p = int(input("Please Enter Your New pin: "))
